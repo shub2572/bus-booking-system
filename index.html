@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo.png" type="image/png" sizes="16x16">
+  <title>AIT || GSRTC </title>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="ait-logo">
+    <h1>AHMEDABAD INSTITUTE OF TECHNOLOGY</h1>
+</div>
+<form method="POST" action="index.html">
+
+  
+        <div class="formm">
+            <h2>GSRTC-BOOKING FORM</h2>
+           <h4 style="color: rgb(240, 14, 240);">Toll Free: 1800 233 666666 / 07922835000</h4>
+           <marquee behavior="" direction=""> <img id="bus" src="bus.gif" alt="bus"></marquee>
+        </div>
+        <div class="reg-detail">
+            <br>
+            <label><b>First Name:-</b></label>
+            <input type="text" pattern="[A-Za-z]+" placeholder="Enter Your First Name" name="fname" id="fname" required><br>
+
+            <label><b>Last Name:-</b></label>
+            <input type="text" pattern="[A-Za-z]+" placeholder="Enter Your Last Name" name="Lname" id="lname" required><br>
+
+            <label><b>Phone No:-</b></label>
+            <input type="tel" pattern="[0-9]{10}" placeholder="Enter Your Phone Number" maxlength="10" name="phone" required id="phone"><br>
+
+            <label><b>Email Add:-</label>
+            <input type="email" placeholder="Enter Your Email Address" name="email" id="email" required><br>
+
+           
+           
+              <label><b>Date & Time</b></label>
+               
+          
+            <input type="date"  id="txtDate" required="Required" class="form-control" name="txtDate" min="2021-03-14" max="2021-03-31" placeholder="Select suitable date" />
+            <br>
+                
+            
+ 
+           
+            <!-- <input type="date"  name="date" id="date" required><br> -->
+
+            <label><b>Source</label>
+              <select class="city">
+                <option value="1">Ahmedabad</option>
+                <option value="2">Surat</option>
+                <option value="3">Gandhinagar</option>
+                <option value="4">Rajkot</option>
+              </select>
+              <br>
+              <label><b>Desti:-</label>
+                <select class="city">
+                  <option value="1">Surat</option>
+                  <option value="2">Gandhinagar</option>
+                  <option value="2">Rajkot</option>
+                  <option value="4">Ahmedabad</option>
+                </select>
+                <br>
+                <label><b>Seats:-</label>
+                  <select class="city">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                  <br>
+            <br>
+        </div>
+  
+    </form>
+    <script>
+      function myFunction() {
+          alert("Payment is Successfully Done!!!");
+      }
+  </script>
+    <div class="regbtn">
+        <button type="submit" onclick="myFunction()">Proceed To Pay</button>
+    </div>
+    
+   
+    <!-- <footer>
+      <p>Copyright ©2021 All rights reserved with by Ahmedabad Institute of Technology </p>
+      <br>
+  </footer> -->
+</body>
+</html>
